@@ -1,8 +1,6 @@
 import Flutter
 import UIKit
-import FBSDKCoreKit
-import FBSDKCoreKit_Basics
-import FBAudienceNetwork
+import FacebookCore
 
 public class SwiftFacebookAppEventsPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
